@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lowongan Hari Ini — Find Yourself Daily Jobs</title>
+<meta name="description" content="Info lowongan kerja luar negeri untuk pekerja Indonesia. Kami bukan agen dan bukan perekrut.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+  :root{
+    --paper:#F6F3ED; --card:#FFFFFF; --ink:#0E2A28; --body:#33423F;
+    --muted:#6A7873; --line:#DFDAD0;
+    --money:#9A5510; --money-bg:#F6E7D4;
+    --verify:#1D6B4F; --verify-bg:#DFEDE5;
+    --alert:#8E3223; --alert-bg:#F6E2DD;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --paper:#0B1817; --card:#132523; --ink:#EFEBE2; --body:#C6D0CC;
+      --muted:#8C9A95; --line:#263A37;
+      --money:#E8A75C; --money-bg:#2A2015;
+      --verify:#6FC79B; --verify-bg:#13291F;
+      --alert:#E28A78; --alert-bg:#2C1613;
+    }
+  }
+  :root[data-theme="dark"]{
+    --paper:#0B1817; --card:#132523; --ink:#EFEBE2; --body:#C6D0CC;
+    --muted:#8C9A95; --line:#263A37;
+    --money:#E8A75C; --money-bg:#2A2015;
+    --verify:#6FC79B; --verify-bg:#13291F;
+    --alert:#E28A78; --alert-bg:#2C1613;
+  }
+  *{box-sizing:border-box}
+  img{max-width:100%}
+  body{
+    background:var(--paper); color:var(--body);
+    font-family:"Public Sans","Helvetica Neue",Arial,sans-serif;
+    margin:0; padding-inline:18px; padding-block:0;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:560px; margin:0 auto; display:flex; flex-direction:column; gap:26px; padding-block:28px 52px}
+
+  .brand{display:flex; flex-direction:column; gap:10px}
+  .mark{font-family:"Bricolage Grotesque",sans-serif; font-weight:800; font-size:15px;
+        letter-spacing:.14em; text-transform:uppercase; color:var(--ink)}
+  h1{font-family:"Bricolage Grotesque",sans-serif; font-weight:700; color:var(--ink);
+     font-size:clamp(30px,8vw,40px); line-height:1.05; margin:0; text-wrap:balance}
+  .sub{font-size:15px; color:var(--muted); margin:0}
+  .stamp{display:inline-flex; align-items:center; gap:7px; align-self:flex-start;
+         background:var(--verify-bg); color:var(--verify); border-radius:999px;
+         padding:6px 13px; font-size:13px; font-weight:700}
+  .dot{width:7px;height:7px;border-radius:50%;background:currentColor}
+
+  .safety{background:var(--alert-bg); border-left:4px solid var(--alert);
+          padding:16px 18px; display:flex; flex-direction:column; gap:7px}
+  .safety b{font-family:"Bricolage Grotesque",sans-serif; color:var(--alert); font-size:15px}
+  .safety p{margin:0; font-size:14px; line-height:1.5}
+  .safety .en{font-style:italic; color:var(--muted); font-size:13px}
+
+  #liste{display:flex; flex-direction:column; gap:26px}
+  .group{display:flex; flex-direction:column; gap:12px}
+  .ghead{display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+         font-family:"Bricolage Grotesque",sans-serif; color:var(--ink);
+         font-size:13px; font-weight:700; letter-spacing:.1em; text-transform:uppercase}
+  .ghead span{color:var(--muted); font-weight:500; letter-spacing:0; text-transform:none; font-size:13px}
+
+  .job{text-decoration:none; background:var(--card);
+       border:1px solid var(--line); border-radius:14px; padding:15px 16px;
+       display:grid; grid-template-columns:auto 1fr; gap:4px 15px; align-items:start}
+  .job:hover{border-color:var(--money)}
+  .job:focus-visible{outline:3px solid var(--money); outline-offset:2px}
+  .pay{grid-row:1 / span 3; background:var(--money-bg); border-radius:10px;
+       padding:10px 11px; min-width:104px; max-width:120px;
+       display:flex; flex-direction:column; gap:2px}
+  .pay .amt{font-family:"Bricolage Grotesque",sans-serif; font-weight:800;
+            font-size:20px; line-height:1.05; color:var(--money);
+            font-variant-numeric:tabular-nums}
+  .pay .unit{font-size:11px; font-weight:600; color:var(--money); opacity:.85}
+  .pay.none .amt{font-size:13px; line-height:1.3}
+  .role{font-family:"Bricolage Grotesque",sans-serif; font-weight:700;
+        color:var(--ink); font-size:17px; line-height:1.2; text-wrap:balance}
+  .where{font-size:14px; color:var(--body)}
+  .src{font-size:12px; color:var(--muted)}
+
+  .etat{background:var(--card); border:1px solid var(--line); border-radius:14px;
+        padding:22px; font-size:14px; color:var(--muted); text-align:center}
+
+  .check{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px}
+  .check h2{font-family:"Bricolage Grotesque",sans-serif; color:var(--ink);
+            font-size:18px; margin:0 0 10px}
+  .check ol{margin:0; padding-left:19px; display:flex; flex-direction:column; gap:9px;
+            font-size:14px; line-height:1.5}
+  .check a{color:var(--verify); font-weight:600}
+
+  footer{border-top:1px solid var(--line); padding-top:18px;
+         font-size:13px; color:var(--muted); line-height:1.6}
+  footer b{color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="brand">
+    <div class="mark">Find Yourself &middot; Daily Jobs</div>
+    <h1>Lowongan kerja hari ini</h1>
+    <p class="sub">Info lowongan kerja luar negeri &mdash; diperbarui setiap hari</p>
+    <div class="stamp"><span class="dot"></span><span id="maj">Memuat&hellip;</span></div>
+  </header>
+
+  <section class="safety">
+    <b>&#9888;&#65039; Lowongan resmi tidak pernah meminta uang di muka</b>
+    <p>Kami <b>bukan agen dan bukan perekrut</b>. Kami hanya membagikan info lowongan yang tersedia untuk umum. Paspor Anda tidak boleh ditahan siapa pun.</p>
+    <p class="en">We are not an agent or a recruiter. We only share publicly available job listings. No one may hold your passport.</p>
+  </section>
+
+  <div id="liste">
+    <div class="etat">Memuat lowongan&hellip;</div>
+  </div>
+
+  <section class="check">
+    <h2>Sebelum melamar, periksa 3 hal ini</h2>
+    <ol>
+      <li>Cek apakah agennya terdaftar di <a href="https://kp2mi.go.id/pptkis/indeks" target="_blank" rel="noopener">daftar resmi P3MI</a>. Kalau tidak ada, jangan lanjut.</li>
+      <li>Untuk 10 jenis pekerjaan, <b>biaya penempatan ditanggung pemerintah</b> &mdash; Anda tidak boleh dimintai bayaran di muka.</li>
+      <li>Bandingkan dengan lowongan resmi di <a href="https://siskop2mi.bp2mi.go.id/lowongan/list" target="_blank" rel="noopener">SISKOP2MI</a>. Berangkat harus pakai visa kerja, bukan visa turis.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <b>Find Yourself &middot; Daily Jobs</b> &mdash; kami mengumpulkan info lowongan dari sumber publik dan menampilkan gajinya bila tersedia. Kami tidak memungut biaya, tidak menyalurkan tenaga kerja, dan tidak mewakili perusahaan mana pun.<br>
+    Instagram: <a href="https://www.instagram.com/findyourself.dailyjobs" target="_blank" rel="noopener" style="color:var(--verify);font-weight:600">@findyourself.dailyjobs</a>
+  </footer>
+
+</div>
+
+<script>
+(function(){
+  var MOIS = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
+  var SOURCES = {
+    "Australie": "Adzuna",
+    "Coree": "Jobploy",
+    "Corée": "Jobploy",
+    "Japon": "Guidable Jobs"
+  };
+  var NOMS = {
+    "Australie": "Australia",
+    "Coree": "Korea Selatan",
+    "Corée": "Korea Selatan",
+    "Japon": "Jepang"
+  };
+
+  function esc(s){
+    return String(s == null ? "" : s)
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+      .replace(/"/g,"&quot;");
+  }
+
+  function dateID(iso){
+    var d = iso ? new Date(iso) : new Date();
+    if (isNaN(d.getTime())) d = new Date();
+    return d.getDate() + " " + MOIS[d.getMonth()] + " " + d.getFullYear();
+  }
+
+  function courte(iso){
+    var d = iso ? new Date(iso) : new Date();
+    if (isNaN(d.getTime())) d = new Date();
+    return d.getDate() + " " + MOIS[d.getMonth()].slice(0,3);
+  }
+
+  function carte(o, vu){
+    var pay = o.salaire
+      ? '<div class="pay"><div class="amt">' + esc(o.salaire) + '</div><div class="unit">gaji</div></div>'
+      : '<div class="pay none"><div class="amt">Gaji tidak dicantumkan</div></div>';
+    var src = (SOURCES[o.pays] || o.pays || "sumber publik");
+    return '<a class="job" href="' + esc(o.lien) + '" target="_blank" rel="noopener">'
+      + pay
+      + '<div class="role">' + esc(o.titre) + '</div>'
+      + '<div class="where">' + esc(o.entreprise || "") + (o.lieu ? " &mdash; " + esc(o.lieu) : "") + '</div>'
+      + '<div class="src">Sumber: ' + esc(src) + ' &middot; dilihat ' + vu + '</div>'
+      + '</a>';
+  }
+
+  function rendre(data){
+    var offres = (data && data.offres) || [];
+    var maj = data && data.maj;
+    document.getElementById("maj").textContent = "Diperbarui " + dateID(maj);
+    var vu = courte(maj);
+
+    if (!offres.length){
+      document.getElementById("liste").innerHTML =
+        '<div class="etat">Belum ada lowongan hari ini. Silakan cek lagi besok.</div>';
+      return;
+    }
+
+    var ordre = [], par = {};
+    offres.forEach(function(o){
+      var k = o.pays || "Lainnya";
+      if (!par[k]){ par[k] = []; ordre.push(k); }
+      par[k].push(o);
+    });
+
+    var html = ordre.map(function(k){
+      var liste = par[k];
+      var titre = (liste[0].drapeau ? liste[0].drapeau + " " : "") + (NOMS[k] || k);
+      return '<section class="group"><div class="ghead">' + esc(titre)
+        + '<span>' + liste.length + ' lowongan</span></div>'
+        + liste.map(function(o){ return carte(o, vu); }).join("")
+        + '</section>';
+    }).join("");
+
+    document.getElementById("liste").innerHTML = html;
+  }
+
+  fetch("offres.json?t=" + Date.now())
+    .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(rendre)
+    .catch(function(){
+      document.getElementById("maj").textContent = "Daftar sedang diperbarui";
+      document.getElementById("liste").innerHTML =
+        '<div class="etat">Daftar lowongan belum tersedia. Silakan cek lagi sebentar lagi.</div>';
+    });
+})();
+</script>
+</body>
+</html>
