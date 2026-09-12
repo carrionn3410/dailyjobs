@@ -138,18 +138,26 @@
 <script>
 (function(){
   var MOIS = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
-  var SOURCES = {
-    "Australie": "Adzuna",
-    "Coree": "Jobploy",
-    "Corée": "Jobploy",
-    "Japon": "Guidable Jobs"
-  };
-  var NOMS = {
-    "Australie": "Australia",
-    "Coree": "Korea Selatan",
-    "Corée": "Korea Selatan",
-    "Japon": "Jepang"
-  };
+  // Les pays arrivent en francais depuis n8n ("Australie", "Coree du Sud", "Japon").
+  // On tolere les accents et les variantes d'ecriture.
+  var PAYS = [
+    { cle: "austral",              nom: "Australia",     src: "Adzuna" },
+    { cle: "cor",                  nom: "Korea Selatan", src: "Jobploy" },
+    { cle: "korea",                nom: "Korea Selatan", src: "Jobploy" },
+    { cle: "jap",                  nom: "Jepang",        src: "Guidable Jobs" },
+    { cle: "malaisie",             nom: "Malaysia",      src: "SISKOP2MI" },
+    { cle: "malaysia",             nom: "Malaysia",      src: "SISKOP2MI" },
+    { cle: "indon",                nom: "Indonesia",     src: "loker.id" }
+  ];
+
+  function infoPays(p){
+    var s = String(p == null ? "" : p).toLowerCase()
+      .replace(/[éèê]/g, "e").replace(/[àâ]/g, "a");
+    for (var i = 0; i < PAYS.length; i++){
+      if (s.indexOf(PAYS[i].cle) > -1) return PAYS[i];
+    }
+    return { nom: p || "Lainnya", src: "sumber publik" };
+  }
 
   function esc(s){
     return String(s == null ? "" : s)
@@ -173,7 +181,7 @@
     var pay = o.salaire
       ? '<div class="pay"><div class="amt">' + esc(o.salaire) + '</div><div class="unit">gaji</div></div>'
       : '<div class="pay none"><div class="amt">Gaji tidak dicantumkan</div></div>';
-    var src = (SOURCES[o.pays] || o.pays || "sumber publik");
+    var src = infoPays(o.pays).src;
     return '<a class="job" href="' + esc(o.lien) + '" target="_blank" rel="noopener">'
       + pay
       + '<div class="role">' + esc(o.titre) + '</div>'
@@ -203,7 +211,7 @@
 
     var html = ordre.map(function(k){
       var liste = par[k];
-      var titre = (liste[0].drapeau ? liste[0].drapeau + " " : "") + (NOMS[k] || k);
+      var titre = (liste[0].drapeau ? liste[0].drapeau + " " : "") + infoPays(k).nom;
       return '<section class="group"><div class="ghead">' + esc(titre)
         + '<span>' + liste.length + ' lowongan</span></div>'
         + liste.map(function(o){ return carte(o, vu); }).join("")
