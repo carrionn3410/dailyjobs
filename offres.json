@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-13T09:27:33.145+02:00",
+ "maj": "2026-09-13T09:36:51.403+02:00",
  "offres": [
   {
    "titre": "Cooks / Chefs / Restaurant Manager",
@@ -8,7 +8,8 @@
    "lien": "https://www.adzuna.com.au/details/5850176724?utm_medium=api&utm_source=a1e658c6",
    "pays": "Australie",
    "drapeau": "🇦🇺",
-   "salaire": "AUD 70-100K / tahun"
+   "salaire": "AUD 70.000-100.000 / tahun",
+   "salaire_idr": "Rp 89 jt"
   },
   {
    "titre": "Chef",
@@ -17,16 +18,38 @@
    "lien": "https://www.adzuna.com.au/details/5868456251?utm_medium=api&utm_source=a1e658c6",
    "pays": "Australie",
    "drapeau": "🇦🇺",
-   "salaire": "AUD 85-95K / tahun"
+   "salaire": "AUD 85.000-95.000 / tahun",
+   "salaire_idr": "Rp 95 jt"
   },
   {
-   "titre": "[Automation Equipment] Hiring Foreigners for Machinery and Equipment Assembly",
-   "entreprise": "Agen Perekrutan Korea / Korean Recruitment Agency",
-   "lieu": "Korea Selatan / South Korea",
-   "lien": "https://www.jobploy.kr/en/recruit/manufacturing-chungnam-automation-equipment-assembly-technician",
-   "pays": "Corée du Sud",
-   "drapeau": "🇰🇷",
-   "salaire": ""
+   "titre": "Chef",
+   "entreprise": "QuickTurn Hospitality Services",
+   "lieu": "Crookwell, Upper Lachlan",
+   "lien": "https://www.adzuna.com.au/details/5849338696?utm_medium=api&utm_source=a1e658c6",
+   "pays": "Australie",
+   "drapeau": "🇦🇺",
+   "salaire": "AUD 75.000-85.000 / tahun",
+   "salaire_idr": "Rp 84 jt"
+  },
+  {
+   "titre": "Chef/Cook",
+   "entreprise": "Last Slice",
+   "lieu": "Bunbury Area, Bunbury Region",
+   "lien": "https://www.adzuna.com.au/details/5855116195?utm_medium=api&utm_source=a1e658c6",
+   "pays": "Australie",
+   "drapeau": "🇦🇺",
+   "salaire": "AUD 70.000-100.000 / tahun",
+   "salaire_idr": "Rp 89 jt"
+  },
+  {
+   "titre": "Developer Programmer",
+   "entreprise": "Raza Consulting PTY LTD",
+   "lieu": "Vineyard, Hawkesbury Area",
+   "lien": "https://www.adzuna.com.au/details/5862796266?utm_medium=api&utm_source=a1e658c6",
+   "pays": "Australie",
+   "drapeau": "🇦🇺",
+   "salaire": "AUD 80.000-85.000 / tahun",
+   "salaire_idr": "Rp 87 jt"
   },
   {
    "titre": "[Gongju] Cosmetics Packaging & Assembly / Daily Wage 95,000 KRW / Weekly Wage\nEvery Friday / Daejeon·Gongju Commuter Bus / F2·F4·F5·F6",
@@ -35,25 +58,8 @@
    "lien": "https://www.jobploy.kr/en/recruit/manufacturing-chungnam-cosmetic-packaging-and-assembly",
    "pays": "Corée du Sud",
    "drapeau": "🇰🇷",
-   "salaire": ""
-  },
-  {
-   "titre": "[Tokyo/Kanagawa] SSW Food Service / Visa Support Available! Kitchen and\nFront-of-House Staff Wanted at a Tonkatsu Restaurant! ",
-   "entreprise": "Guidable Agency 2",
-   "lieu": "Shibuya-ku (Tokyo)",
-   "lien": "https://jobs.guidable.co/en/offers/21010",
-   "pays": "Japon",
-   "drapeau": "🇯🇵",
-   "salaire": ""
-  },
-  {
-   "titre": "[Tokyo/Kanagawa/Saitama] SSW Food Service / Visa Support Available! Kitchen and\nFront-of-House Staff Wanted for an Izakaya! ",
-   "entreprise": "Guidable Agency 2",
-   "lieu": "Shinjuku-ku (Tokyo), Saitamashi Minami-ku (Saitama), Yokohamashi Nishi-ku\n(Kanagawa)",
-   "lien": "https://jobs.guidable.co/en/offers/21136",
-   "pays": "Japon",
-   "drapeau": "🇯🇵",
-   "salaire": ""
+   "salaire": "KRW 95.000 / hari",
+   "salaire_idr": "Rp 27 jt"
   }
  ]
 }
