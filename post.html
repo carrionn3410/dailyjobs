@@ -107,7 +107,9 @@
   if (inf.c) { fl.src = "https://flagcdn.com/w80/" + inf.c + ".png"; }
   else { fl.style.display = "none"; }
 
-  // --- photo : 5 visuels fixes, choisis par domaine de metier --------------
+  // --- photo : alternance quotidienne -------------------------------------
+  //   jour "metier"   -> 5 visuels fixes choisis par domaine (comme avant)
+  //   jour "paysage"  -> photo du pays (bush AU / skyline moderne KR, etc.)
   var B = "https://cdn.gamma.app/b569gvulqay45b8/design-anything/";
   var CATS = [
     { u: B + "5YYyYNLWy31AsI7NysWNY/v6idZQEenJx-SXjyTvZA1.jpg",
@@ -123,11 +125,32 @@
       k: ["hotel","hospitality","tourism","tourisme","guest","front desk","concierge",
           "housekeep","cleaner","resort"] }
   ];
-  var hay = (titre + " " + entreprise).toLowerCase();
-  var pick = CATS[4].u;
-  for (var j = 0; j < CATS.length; j++) {
-    for (var m = 0; m < CATS[j].k.length; m++) {
-      if (hay.indexOf(CATS[j].k[m]) > -1) { pick = CATS[j].u; j = 99; break; }
+  var LAND = [
+    { k: "austral", u: "https://images.unsplash.com/photo-1696560567583-c74195ada757?w=1080&q=80&fm=jpg&fit=crop" },
+    { k: "cor",     u: "https://images.unsplash.com/photo-1723174391648-9e73f8865a12?w=1080&q=80&fm=jpg&fit=crop" },
+    { k: "korea",   u: "https://images.unsplash.com/photo-1723174391648-9e73f8865a12?w=1080&q=80&fm=jpg&fit=crop" }
+  ];
+
+  // alterne chaque jour (UTC) : jour pair = metier, jour impair = paysage
+  var dayIdx = Math.floor(Date.now() / 86400000);
+  var mode = (dayIdx % 2 === 0) ? "sector" : "land";
+  var mOverride = g("m"); // debug : ?m=sector ou ?m=land force le mode
+  if (mOverride === "sector" || mOverride === "land") { mode = mOverride; }
+
+  var pick = null;
+  if (mode === "land") {
+    for (var lg = 0; lg < LAND.length; lg++) {
+      if (pk.indexOf(LAND[lg].k) > -1) { pick = LAND[lg].u; break; }
+    }
+  }
+  if (!pick) {
+    // pas de photo paysage pour ce pays (ou jour "metier") -> pick sectoriel
+    var hay = (titre + " " + entreprise).toLowerCase();
+    pick = CATS[4].u;
+    for (var j = 0; j < CATS.length; j++) {
+      for (var m2 = 0; m2 < CATS[j].k.length; m2++) {
+        if (hay.indexOf(CATS[j].k[m2]) > -1) { pick = CATS[j].u; j = 99; break; }
+      }
     }
   }
   document.getElementById("ph").src = pick;
