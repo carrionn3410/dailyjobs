@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-13T20:41:32.492+02:00",
+ "maj": "2026-09-14T08:13:13.836+02:00",
  "offres": [
   {
    "titre": "Cooks / Chefs / Restaurant Manager",
@@ -50,16 +50,6 @@
    "drapeau": "🇦🇺",
    "salaire": "AUD 80.000-85.000 / tahun",
    "salaire_idr": "Rp 84-89 jt"
-  },
-  {
-   "titre": "[Gongju] Cosmetics Packaging & Assembly / Daily Wage 95,000 KRW / Weekly Wage\nEvery Friday / Daejeon·Gongju Commuter Bus / F2·F4·F5·F6",
-   "entreprise": "Agen Perekrutan Korea / Korean Recruitment Agency",
-   "lieu": "Korea Selatan / South Korea",
-   "lien": "https://www.jobploy.kr/en/recruit/manufacturing-chungnam-cosmetic-packaging-and-assembly",
-   "pays": "Corée du Sud",
-   "drapeau": "🇰🇷",
-   "salaire": "KRW 95.000 / hari",
-   "salaire_idr": "Rp 27 jt"
   }
  ]
 }
