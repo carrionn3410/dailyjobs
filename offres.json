@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-14T08:13:13.836+02:00",
+ "maj": "2026-09-15T09:16:09.411+02:00",
  "offres": [
   {
    "titre": "Cooks / Chefs / Restaurant Manager",
@@ -9,7 +9,7 @@
    "pays": "Australie",
    "drapeau": "🇦🇺",
    "salaire": "AUD 70.000-100.000 / tahun",
-   "salaire_idr": "Rp 74-105 jt"
+   "salaire_idr": "Rp 73-105 jt"
   },
   {
    "titre": "Chef",
@@ -39,17 +39,17 @@
    "pays": "Australie",
    "drapeau": "🇦🇺",
    "salaire": "AUD 70.000-100.000 / tahun",
-   "salaire_idr": "Rp 74-105 jt"
+   "salaire_idr": "Rp 73-105 jt"
   },
   {
-   "titre": "Developer Programmer",
-   "entreprise": "Raza Consulting PTY LTD",
-   "lieu": "Vineyard, Hawkesbury Area",
-   "lien": "https://www.adzuna.com.au/details/5862796266?utm_medium=api&utm_source=a1e658c6",
+   "titre": "Cook/Chef",
+   "entreprise": "5 Happy Monkeys Pty Ltd",
+   "lieu": "Sydney CBD, Sydney",
+   "lien": "https://www.adzuna.com.au/details/5846342063?utm_medium=api&utm_source=a1e658c6",
    "pays": "Australie",
    "drapeau": "🇦🇺",
-   "salaire": "AUD 80.000-85.000 / tahun",
-   "salaire_idr": "Rp 84-89 jt"
+   "salaire": "AUD 65.000-85.000 / tahun",
+   "salaire_idr": "Rp 68-89 jt"
   }
  ]
 }
