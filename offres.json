@@ -1,5 +1,5 @@
 {
- "maj": "2026-09-17T09:04:30.317+02:00",
+ "maj": "2026-09-19T09:32:12.454+02:00",
  "offres": [
   {
    "titre": "Cooks / Chefs / Restaurant Manager",
@@ -9,7 +9,7 @@
    "pays": "Australie",
    "drapeau": "🇦🇺",
    "salaire": "AUD 70.000-100.000 / tahun",
-   "salaire_idr": "Rp 74-105 jt"
+   "salaire_idr": "Rp 74-106 jt"
   },
   {
    "titre": "Chef",
@@ -19,27 +19,7 @@
    "pays": "Australie",
    "drapeau": "🇦🇺",
    "salaire": "AUD 85.000-95.000 / tahun",
-   "salaire_idr": "Rp 89-100 jt"
-  },
-  {
-   "titre": "Chef",
-   "entreprise": "QuickTurn Hospitality Services",
-   "lieu": "Crookwell, Upper Lachlan",
-   "lien": "https://www.adzuna.com.au/details/5849338696?utm_medium=api&utm_source=a1e658c6",
-   "pays": "Australie",
-   "drapeau": "🇦🇺",
-   "salaire": "AUD 75.000-85.000 / tahun",
-   "salaire_idr": "Rp 79-89 jt"
-  },
-  {
-   "titre": "Chef/Cook",
-   "entreprise": "Last Slice",
-   "lieu": "Bunbury Area, Bunbury Region",
-   "lien": "https://www.adzuna.com.au/details/5855116195?utm_medium=api&utm_source=a1e658c6",
-   "pays": "Australie",
-   "drapeau": "🇦🇺",
-   "salaire": "AUD 70.000-100.000 / tahun",
-   "salaire_idr": "Rp 74-105 jt"
+   "salaire_idr": "Rp 90-100 jt"
   },
   {
    "titre": "Developer Programmer",
@@ -49,7 +29,27 @@
    "pays": "Australie",
    "drapeau": "🇦🇺",
    "salaire": "AUD 80.000-85.000 / tahun",
-   "salaire_idr": "Rp 84-89 jt"
+   "salaire_idr": "Rp 85-90 jt"
+  },
+  {
+   "titre": "Chef",
+   "entreprise": "QuickTurn Hospitality Services",
+   "lieu": "Crookwell, Upper Lachlan",
+   "lien": "https://www.adzuna.com.au/details/5849338696?utm_medium=api&utm_source=a1e658c6",
+   "pays": "Australie",
+   "drapeau": "🇦🇺",
+   "salaire": "AUD 75.000-85.000 / tahun",
+   "salaire_idr": "Rp 79-90 jt"
+  },
+  {
+   "titre": "Chef/Cook",
+   "entreprise": "Last Slice",
+   "lieu": "Bunbury Area, Bunbury Region",
+   "lien": "https://www.adzuna.com.au/details/5855116195?utm_medium=api&utm_source=a1e658c6",
+   "pays": "Australie",
+   "drapeau": "🇦🇺",
+   "salaire": "AUD 70.000-100.000 / tahun",
+   "salaire_idr": "Rp 74-106 jt"
   }
  ]
 }
