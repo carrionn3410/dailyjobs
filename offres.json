@@ -1,16 +1,6 @@
 {
- "maj": "2026-09-19T09:32:12.454+02:00",
+ "maj": "2026-09-20T08:28:21.091+02:00",
  "offres": [
-  {
-   "titre": "Cooks / Chefs / Restaurant Manager",
-   "entreprise": "Shepparton RSL",
-   "lieu": "Congupna, Outer Shepparton",
-   "lien": "https://www.adzuna.com.au/details/5850176724?utm_medium=api&utm_source=a1e658c6",
-   "pays": "Australie",
-   "drapeau": "🇦🇺",
-   "salaire": "AUD 70.000-100.000 / tahun",
-   "salaire_idr": "Rp 74-106 jt"
-  },
   {
    "titre": "Chef",
    "entreprise": "The Sir George Hotel",
@@ -32,16 +22,6 @@
    "salaire_idr": "Rp 85-90 jt"
   },
   {
-   "titre": "Chef",
-   "entreprise": "QuickTurn Hospitality Services",
-   "lieu": "Crookwell, Upper Lachlan",
-   "lien": "https://www.adzuna.com.au/details/5849338696?utm_medium=api&utm_source=a1e658c6",
-   "pays": "Australie",
-   "drapeau": "🇦🇺",
-   "salaire": "AUD 75.000-85.000 / tahun",
-   "salaire_idr": "Rp 79-90 jt"
-  },
-  {
    "titre": "Chef/Cook",
    "entreprise": "Last Slice",
    "lieu": "Bunbury Area, Bunbury Region",
@@ -50,6 +30,26 @@
    "drapeau": "🇦🇺",
    "salaire": "AUD 70.000-100.000 / tahun",
    "salaire_idr": "Rp 74-106 jt"
+  },
+  {
+   "titre": "Chef",
+   "entreprise": "Park Bong Sook",
+   "lieu": "Eastwood, Ryde Area",
+   "lien": "https://www.adzuna.com.au/details/5889468301?utm_medium=api&utm_source=a1e658c6",
+   "pays": "Australie",
+   "drapeau": "🇦🇺",
+   "salaire": "AUD 80.000 / tahun",
+   "salaire_idr": "Rp 85 jt"
+  },
+  {
+   "titre": "Chef",
+   "entreprise": "MORO HOSPITALITY PTY LTD",
+   "lieu": "Victoria, Australia",
+   "lien": "https://www.adzuna.com.au/details/5863475428?utm_medium=api&utm_source=a1e658c6",
+   "pays": "Australie",
+   "drapeau": "🇦🇺",
+   "salaire": "AUD 80.000 / tahun",
+   "salaire_idr": "Rp 85 jt"
   }
  ]
 }
