@@ -1,6 +1,16 @@
 {
- "maj": "2026-09-21T08:15:57.026+02:00",
+ "maj": "2026-09-22T10:22:39.465+02:00",
  "offres": [
+  {
+   "titre": "Chef",
+   "entreprise": "The Sir George Hotel",
+   "lieu": "Jugiong, Harden Area",
+   "lien": "https://www.adzuna.com.au/details/5868456251?utm_medium=api&utm_source=a1e658c6",
+   "pays": "Australie",
+   "drapeau": "🇦🇺",
+   "salaire": "AUD 85.000-95.000 / tahun",
+   "salaire_idr": "Rp 90-101 jt"
+  },
   {
    "titre": "Developer Programmer",
    "entreprise": "Raza Consulting PTY LTD",
@@ -10,16 +20,6 @@
    "drapeau": "🇦🇺",
    "salaire": "AUD 80.000-85.000 / tahun",
    "salaire_idr": "Rp 85-90 jt"
-  },
-  {
-   "titre": "Chef",
-   "entreprise": "The Sir George Hotel",
-   "lieu": "Jugiong, Harden Area",
-   "lien": "https://www.adzuna.com.au/details/5868456251?utm_medium=api&utm_source=a1e658c6",
-   "pays": "Australie",
-   "drapeau": "🇦🇺",
-   "salaire": "AUD 85.000-95.000 / tahun",
-   "salaire_idr": "Rp 90-100 jt"
   },
   {
    "titre": "Chef/Cook",
@@ -42,14 +42,14 @@
    "salaire_idr": "Rp 85 jt"
   },
   {
-   "titre": "Chef",
-   "entreprise": "MORO HOSPITALITY PTY LTD",
-   "lieu": "Victoria, Australia",
-   "lien": "https://www.adzuna.com.au/details/5863475428?utm_medium=api&utm_source=a1e658c6",
+   "titre": "Wait Staff",
+   "entreprise": "Ray Rays",
+   "lieu": "Potts Point, Sydney",
+   "lien": "https://www.adzuna.com.au/land/ad/5861419779?se=TsH81Uu28RGrwJOOm3vXfg&utm_medium=api&utm_source=a1e658c6&v=B561FEA47856809F78D67BE51B0EEE6D61263DF4",
    "pays": "Australie",
    "drapeau": "🇦🇺",
-   "salaire": "AUD 80.000 / tahun",
-   "salaire_idr": "Rp 85 jt"
+   "salaire": "AUD 72.800 / tahun",
+   "salaire_idr": "Rp 77 jt"
   },
   {
    "titre": "Company No. 560 - ONLY Cambodia - E74R Visa Provided - Married Couple (2 people)\nAllowed - Gyeongsangnam-do - Strawberry Farm - Monthly Salary 3 Million KRW or\nMore",
